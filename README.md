@@ -3,4 +3,5 @@ Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,.
 
 # Example Run
 Input: nums = [4,2,1,3,8,7], n = 3
+
 Output: [4,3,2,8,1,7] 
