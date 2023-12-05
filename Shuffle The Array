@@ -1,0 +1,18 @@
+class Solution 
+{
+    public int[] shuffle(int[] nums, int n) 
+    {
+      int[] yArray = new int[n];
+      int[] newArray = new int[2*n];
+      for(int i = 0; i<n; i++)
+      {
+        yArray[i] = nums[n+i];
+      }
+      for(int j = 0; j < 2*n; j+=2)
+      {
+        newArray[j] = nums[j/2];
+        newArray[j+1] = yArray[j/2];
+      }
+      return newArray;
+    }
+}
